@@ -1,0 +1,74 @@
+.detail-container {
+    margin: 8rem 6rem;
+}
+.card-text{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.child-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.lists li{
+    list-style-type: circle;
+    list-style-position: outside;
+    text-align: justify;
+  }
+.instruction-container{
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.instruction{
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: justify;
+    margin-left: 5 5 1.8 0;
+}
+
+.instruction h2{
+    text-align: center;
+}
+.lists{
+    text-align: justify;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+}
+
+@media screen and (max-width: 850px){
+    .detail-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: justify;
+        margin-left: 25%;
+    }
+
+    .child-container{
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        text-align: justify;
+    }
+    .instruction-container{
+        margin-left: 5%;
+    }
+
+
+}
+

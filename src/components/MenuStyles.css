@@ -1,0 +1,72 @@
+.menu{
+    margin: 4rem 6rem;
+}
+
+.menu h1{
+    font-size: 3rem;
+}
+
+.first-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.first-menu-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.menu-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.menu-text h2{
+    padding-bottom: 1rem;
+}
+
+.image{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    object-fit: cover;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 850px){
+    .menu{
+        margin: 4rem 2rem;    
+    }
+
+    .first-menu{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .first-menu-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4.5rem;
+    }
+
+
+    .menu-text{
+        width: 100%;
+    }
+
+    .image{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+}
+
